@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-wrapper{
+    background-color: #303030;
+}
+li{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    list-style-type: none;
+    padding: 10px 30px
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.search>i{
+    color: #ffffff;
+    font-size: 25px;
+}
+#section{
+    background-image: url(../image.html/banner.png);
+
+}
