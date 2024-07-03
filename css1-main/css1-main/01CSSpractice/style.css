@@ -1,0 +1,12 @@
+.Internal{
+    background-color: blue;
+    color: red;
+    font-size: 50px;
+}
+body{
+    background-color: greenyellow;
+    
+}
+p{
+    color: rgb(14, 51, 174);
+}
