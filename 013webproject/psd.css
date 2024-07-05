@@ -10,7 +10,7 @@ h1 {
     color: #ffffff;
     font-weight: 700;
     font-family: "Oswald";
-    text-align: center;
+    padding-right: 306px;
 }
 
 p {
@@ -376,4 +376,72 @@ footer {
 .fa-brands i {
     width: 20px;
     height: 20px;
+}
+/* Media Queries */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+
+    .footer-section h4 {
+        font-size: 18px;
+    }
+
+    .footer-section ul li a {
+        font-size: 16px;
+    }
+
+    .footer-section ul li {
+        margin-bottom: 8px;
+    }
+
+    .container, .allbox, .allbox2, .num, .b1 {
+        flex-direction: column;
+    }
+
+    .row, .col {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p, li {
+        font-size: 20px;
+    }
+
+    .footer-section h4 {
+        font-size: 16px;
+    }
+
+    .footer-section ul li a {
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .text, .text2 {
+        font-size: 24px;
+    }
 }
