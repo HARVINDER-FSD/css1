@@ -5,7 +5,7 @@
 }
 
 h1 {
-    font-size: 75px;
+    font-size: 20px;
     text-transform: uppercase;
     color: #ffffff;
     font-weight: 700;
@@ -57,11 +57,11 @@ li {
 }
 
 #section1 {
-    background: url(../10image/banner1.png);
+    background: url(../10image/banner.png);
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
-    height: 770px;
+    height: 100vh;
 
 }
 
@@ -79,7 +79,7 @@ li {
 
 
 h1 {
-    font-size: 70px;
+    font-size: 20px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Oswald";
@@ -102,10 +102,7 @@ h1+p {
     background-color: #e8631c;
 
 }
-.text1{
-    padding-top: 40px;
-   
-}
+
 .text2 {
     width: 1688px;
     height: 210px;
@@ -136,7 +133,8 @@ h2+p {
     display: flex;
     justify-content: left;
     justify-content: space-between;
-    margin-top: 80px;
+    margin-top: 50px;
+    
 }
 
 .box1 {
@@ -149,8 +147,9 @@ h2+p {
 
 #section3 {
     width: 100%;
-    height: 770px;
+    height: 974px;
     background-color: #303030;
+    height: 770px;
 }
 
 .allbox2 {
@@ -158,6 +157,7 @@ h2+p {
     justify-content: center;
     justify-content: space-between;
     text-align: center;
+    margin-top: 50px;
 }
 
 .text2 {
@@ -220,81 +220,17 @@ button {
 }
 
 #section4 {
-    margin: 0;
     width: 100%;
     height: 770px;
     background-color: #e8631c;
     overflow: hidden;
 }
-.row{
+
+.text3{
     display: flex;
     justify-content: space-between;
-}
-.img{
-    padding-left: 20PX;
-}
-.row button{
-    margin: 150px;
+    justify-content: center;
 }
 
-#section5 {
-    width: 100%;
-    height: 770px;
-    background-color: #e8631c;
-    overflow: hidden;
-}
-.tap{
-    margin-top: 200px;
-}
 
-.col{
-    display: flex;
-    justify-content: space-between;
-}
-.col button{
-    margin: 150px;
-}
-.col img{
-    padding-left: 38px;
-
-    
-}
-#section6{
-    width: 100%;
-    height: 770px;
-    background-color: #303030;
-   
-}
-
-.num{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 20px;
-    
-}
-.num p{
-    font-size:50px ;
-    
-}
-.our{
-    padding: 134px;
-}
-.our p{
-
-}
-#section7{
-    width: 100%;
-    height: 770px;
-    background-image: url(../10image/section7-1.png);
-    
-}
-#section8{
-    width: 100%;
-    height: 770px;
-    background-color: #e8631c;
-    
-}
-.b1{
-    display: flex;
-}
 
