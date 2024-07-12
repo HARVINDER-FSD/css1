@@ -1,0 +1,654 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    /* overflow: hidden; */
+}
+
+nav {
+    border-top: 3px solid #2c4152;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 30px;
+    padding-top: 20px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .2);
+}
+.home img{
+    align-items: center;
+}
+nav a {
+    margin-right: 20px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+#wist{
+    align-items: center;
+}
+.input{
+    
+    display: flex;
+    align-items: flex-end;
+}
+.logo img {
+    width: 130px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+input {
+    
+        font-family: Helvetica, sans-serif;
+        font-weight: 300;
+        border: 1px solid #2c4152;
+        border-radius: 17px;
+        width: 250px;
+        padding: 0 20px 0 12px;
+        background-color: #fffded;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+        height: 34px;
+        font-size: 14px;
+    
+}
+
+.banner {
+    margin-top: 5px;
+    background: no-repeat center center/cover;
+    animation-name: banner;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    width: 100%;
+    position: relative;
+    
+}
+
+.h6 {
+
+    text-align: center;
+    padding: 200px;
+}
+
+.slider {
+
+    margin: 0 auto;
+    margin-top: 5px;
+    background: no-repeat center center/cover;
+    animation-name: slider;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    width: 100%;
+    height: 100px;
+}
+
+.slider2 {
+    border: 2px solid black;
+    margin: 0 auto;
+
+    margin-top: 5px;
+    background: no-repeat center center/cover;
+    animation-name: slider2;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    width: 100%;
+    height: 100px;
+}
+
+.slider {
+    margin-top: 200px;
+}
+
+.add {
+    margin-top: 200px;
+}
+
+.ban-2 {
+    margin-top: 5px;
+    background: no-repeat center center/cover;
+    animation-name: ban-2;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    width: 100%;
+}
+
+.ban-3 {
+    margin-top: 5px;
+    background: no-repeat center center/cover;
+    animation-name: ban-3;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    width: 100%;
+}
+
+.ban-4 {
+    margin-top: 5px;
+    background: no-repeat center center/cover;
+    animation-name: ban-4;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    width: 100%;
+}
+
+.ban-5 {
+    margin-top: 5px;
+    background: no-repeat center center/cover;
+    animation-name: ban-5;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    width: 100%;
+}
+
+.ban-6 {
+    margin-top: 5px;
+    background: no-repeat center center/cover;
+    animation-name: ban-6;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    width: 100%;
+}
+
+.ban-7 {
+    margin-top: 5px;
+    background: no-repeat center center/cover;
+    animation-name: ban-7;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    width: 100%;
+}
+
+.allimg {
+    display: contents;
+}
+
+.ims {
+    display: flex;
+}
+
+.imgs {
+    display: flex;
+
+}
+
+.img1 {
+    transition: transform 0.5s ease;
+}
+
+.img1:hover {
+    transform: scale(1.1);
+}
+
+.founder {
+    display: flex;
+}
+
+.allimg {
+    display: flex;
+}
+
+.wat-1 {
+    padding-left: 20px;
+}
+
+.wat-2 {
+    display: flex;
+}
+
+.favicon {
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    align-items: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 90px;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding-top: 0px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    
+}
+
+.payment-methods img,
+.secure-systems img {
+    margin-right: 10px;
+    padding-top: 10px;
+}
+.payment-methods img{
+    padding-left: 50px;
+    
+}
+.secure-systems img{
+    padding-right: 50px;
+}
+hr {
+    border: 0;
+    border-top: 1px solid #ffffff;
+    margin: 0 70px 20px 20px;
+}
+.h4{
+display: flex;
+justify-content: space-between;
+}
+h5{
+padding-left: 90px;
+}
+.h5{
+padding-right: 90px; 
+}
+
+@keyframes banner {
+    0% {
+        background-image: url(../10image/ajioslis1.jpg);
+    }
+
+    10% {
+        background-image: url(../10image/ajioslis2.jpg);
+    }
+
+    20% {
+        background-image: url(../10image/ajioslis3.jpg);
+    }
+
+    30% {
+        background-image: url(../10image/ajioslis4.jpg);
+    }
+
+    40% {
+        background-image: url(../10image/ajioslis5.jpg);
+    }
+
+    50% {
+        background-image: url(../10image/aji.avif);
+    }
+
+    60% {
+        background-image: url(../10image/ajioslis1.jpg);
+    }
+}
+
+@keyframes slider {
+    0% {
+        background-image: url(../10image/ICICI-.avif);
+    }
+
+    10% {
+        background-image: url(../10image/one\ card.avif);
+    }
+
+    20% {
+        background-image: url(../10image/BOB\ .avif);
+    }
+
+    30% {
+        background-image: url(../10image/RRL_SBI.avif);
+    }
+
+    40% {
+        background-image: url(../10image/ICICI-1440x128r.jpg);
+    }
+
+    50% {
+        background-image: url(../10image/1440x128-one\ card.jpg);
+    }
+
+    60% {
+        background-image: url(../10image/1440x128BOB.avif);
+    }
+
+
+}
+
+@keyframes slider2 {
+    0% {
+        background-image: url(../10image/-MWO.avif);
+    }
+
+    10% {
+        background-image: url(../10image/paytm.avif);
+    }
+
+    20% {
+        background-image: url(../10image/sbi.avif);
+    }
+
+    30% {
+        background-image: url(../10image/sbcard.avif);
+    }
+
+    40% {
+        background-image: url(../10image/relinoint.jpg);
+    }
+
+    50% {
+        background-image: url(../10image/-MWO.avif);
+    }
+
+    60% {
+        background-image: url(../10image/paytm.avif);
+    }
+
+    70% {
+        background-image: url(../10image/sbi.avif);
+    }
+
+    80% {
+        background-image: url(../10image/sbcard.avif);
+    }
+
+    90% {
+        background-image: url(../10image/relinoint.jpg);
+    }
+
+
+}
+
+@keyframes ban-2 {
+    0% {
+        background-image: url(../10image/ajioslis11.jpg);
+    }
+
+    10% {
+        background-image: url(../10image/ajioslis12.jpg);
+    }
+
+    20% {
+        background-image: url(../10image/ajioslis13.jpg);
+    }
+
+    30% {
+        background-image: url(../10image/ajioslis14.jpg);
+    }
+
+    40% {
+        background-image: url(../10image/ajioslis15.jpg);
+    }
+
+    50% {
+        background-image: url(../10image/ajioslis11.jpg);
+    }
+
+    60% {
+        background-image: url(../10image/ajioslis12.jpg);
+    }
+
+    70% {
+        background-image: url(../10image/ajioslis13.jpg);
+    }
+
+    80% {
+        background-image: url(../10image/ajioslis14.jpg);
+    }
+
+    90% {
+        background-image: url(../10image/ajioslis15.jpg);
+    }
+}
+
+@keyframes ban-3 {
+    0% {
+        background-image: url(../10image/max1.avif);
+    }
+
+    10% {
+        background-image: url(../10image/max2.avif);
+    }
+
+    20% {
+        background-image: url(../10image/max3.avif);
+    }
+
+    30% {
+        background-image: url(../10image/max4.avif);
+    }
+
+    40% {
+        background-image: url(../10image/max5.avif);
+    }
+
+    50% {
+        background-image: url(../10image/max1.avif);
+    }
+
+    60% {
+        background-image: url(../10image/max2.avif);
+    }
+
+    70% {
+        background-image: url(../10image/max3.avif);
+    }
+
+    80% {
+        background-image: url(../10image/max4.avif);
+    }
+
+    90% {
+        background-image: url(../10image/max5.avif);
+    }
+}
+
+@keyframes ban-4 {
+    0% {
+        background-image: url(../10image/puma1.avif);
+    }
+
+    10% {
+        background-image: url(../10image/puma2.avif);
+    }
+
+    20% {
+        background-image: url(../10image/puma3.avif);
+    }
+
+    30% {
+        background-image: url(../10image/puma4.avif);
+    }
+
+    40% {
+        background-image: url(../10image/puma5.avif);
+    }
+
+    50% {
+        background-image: url(../10image/puma1.avif);
+    }
+
+    60% {
+        background-image: url(../10image/puma2.avif);
+    }
+
+    70% {
+        background-image: url(../10image/puma3.avif);
+    }
+
+    80% {
+        background-image: url(../10image/puma4.avif);
+    }
+
+    90% {
+        background-image: url(../10image/puma5.avif);
+    }
+}
+
+@keyframes ban-5 {
+    0% {
+        background-image: url(../10image/oil1.avif);
+    }
+
+    10% {
+        background-image: url(../10image/oil2.avif);
+    }
+
+    20% {
+        background-image: url(../10image/oil3.avif);
+    }
+
+    30% {
+        background-image: url(../10image/oil4.avif);
+    }
+
+    40% {
+        background-image: url(../10image/oil5.avif);
+    }
+
+    50% {
+        background-image: url(../10image/oil1.avif);
+    }
+
+    60% {
+        background-image: url(../10image/oil2.avif);
+    }
+
+    70% {
+        background-image: url(../10image/oil3.avif);
+    }
+
+    80% {
+        background-image: url(../10image/oil4.avif);
+    }
+
+    90% {
+        background-image: url(../10image/oil5.avif);
+    }
+}
+
+@keyframes ban-6 {
+    0% {
+        background-image: url(../10image/fav1.avif);
+    }
+
+    10% {
+        background-image: url(../10image/fav2.avif);
+    }
+
+    20% {
+        background-image: url(../10image/fav3.avif);
+    }
+
+    30% {
+        background-image: url(../10image/fav4.avif);
+    }
+
+    40% {
+        background-image: url(../10image/fav5.avif);
+    }
+
+    50% {
+        background-image: url(../10image/fav6.avif);
+    }
+
+    60% {
+        background-image: url(../10image/fav7.avif);
+    }
+
+    70% {
+        background-image: url(../10image/fav1.avif);
+    }
+
+    80% {
+        background-image: url(../10image/fav2.avif);
+    }
+
+    90% {
+        background-image: url(../10image/fav3.avif);
+    }
+}
+
+@keyframes ban-7 {
+    0% {
+        background-image: url(../10image/j);
+    }
+
+    10% {
+        background-image: url(../10image/j);
+    }
+
+    20% {
+        background-image: url(../10image/jwl1.avif);
+    }
+
+    30% {
+        background-image: url(../10image/jwl2.avif);
+    }
+
+    40% {
+        background-image: url(../10image/jwl3.webp);
+    }
+
+    50% {
+        background-image: url(../10image/jwl4.avif);
+    }
+
+    60% {
+        background-image: url(../10image/jwl5.avif);
+    }
+
+    70% {
+        background-image: url(../10image/jwl1.avif);
+    }
+
+    80% {
+        background-image: url(../10image/jwl2.avif);
+    }
+
+    90% {
+        background-image: url(../10image/jwl3.webp);
+    }
+}
+@media (max-width: 768px) {
+section{
+    flex-direction: column;
+}
+
+}

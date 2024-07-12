@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      nav {
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        margin: 0 auto;
+        background-color: black;
+        height: 20px;
+      }
+nav a{
+    color: antiquewhite;
+
+}
+      .hide {
+        display: none;
+      }
+
+      .show:hover .hide {
+        /* display: inline-block; */
+        display: block;
+        border: solid 2px black;
+        width: 150px;
+        height: 250px;
+        padding: 10px;
+        top: 30px;
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <a href="#">HOME</a>
+        <a href="#">HOME 2</a>
+        <div class="show">
+          <a href="#">HOVER</a>
+          <div class="hide">
+            <div>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse
+                voluptatibus blanditiis velit deserunt magnam dolores labore
+                iusto quibusdam animi fuga!
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="#">HOME 3</a>
+        <a href="#">HOME 4</a>
+      </nav>
+    </div>
+  </body>
+</html>
