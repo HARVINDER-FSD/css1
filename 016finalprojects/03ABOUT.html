@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <Style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #section0 {
+            font-size: 60px;
+            text-align: center;
+            font-family: "League Ghotic", sans-serif;
+            src: url(https://websitedemos.net/fonts.gstatic.com/s/leaguegothic/v11/qFdR35CBi4tvBz81xy7WG7ep-BQAY7Krj7feObpH_9ahg9U.woff2);
+            margin: 70px;
+        }
+
+        .sec0 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* margin-top: 90px; */
+        }
+
+        .sec0 h5 {
+            font-size: 20px;
+        }
+
+        .language-btn {
+            display: inline-flex;
+            align-items: center;
+            margin-bottom: 10px;
+            background: transparent;
+            border: 1px solid white;
+            padding: 7px 10px;
+        }
+
+        .language-btn img {
+            width: 10px;
+            margin-left: 10px;
+        }
+
+        #section1 {
+
+            background-image: url(../016finalprojects/imgs/bg1.jpg);
+            background-color: black;
+            flex-wrap: wrap;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            color: #fff;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 40px;
+            padding-right: 40px;
+        }
+
+        .logo {
+            margin-right: 20px;
+        }
+
+        ul li {
+            display: inline-block;
+            padding: 0px 20px;
+
+        }
+
+        .home {
+            color: red;
+        }
+
+        li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        span,
+        .home {
+            color: #ff4955;
+        }
+
+        h1 {
+            font-size: 65px;
+            font-family: "League Ghotic", sans-serif;
+            src: url(../016finalprojects/League_Gothic/LeagueGothic-Regular-VariableFont_wdth.ttf);
+            font-weight: 700;
+        }
+
+
+
+        .text-container {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        h3 {
+
+            color: #ff4955;
+        }
+
+        h3 {
+            font-size: 30px;
+
+            padding: 10px 30px;
+            font-family: 'kaushan script', handwriting;
+
+        }
+
+        /* -----------------------section1-over----------- */
+
+
+        #section2 {
+            margin-top: 50px;
+            border: 2px solid white;
+            width: 90%;
+            height: 55vh;
+            background-image: url(../016finalprojects/imgs/about-02.jpg);
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+            margin-left: 60px;
+            box-shadow: 0px 0px 80px 80px rgba(0, 0, 0, 0.815);
+
+
+        }
+        .--img{
+
+        }
+        #section3{
+            
+        }
+        .container3 {
+            display: flex;
+            border: 1px solid #000;
+            padding: 10px;
+            height: 500px;
+        }
+        .left, .right {
+            flex: 1;
+            padding: 10px;
+        }
+        .left1 {
+            background-color: black;
+           
+        }
+        .left1 h1{
+            font-size: 50px;
+            padding-left: 30px;
+        }
+        .left1 h3{
+            padding-left: 30px;
+        
+        }
+        .right1 {
+            width: 50%;
+            background-color: black;
+            text-align: center;
+        }
+
+        /* section 3 over */
+        
+        #SECTION6 {
+            background-color: black;
+        }
+
+        .container6 {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+            /* border: 1px solid #fdf3f3; */
+            color: white;
+            margin-top: 150px;
+        }
+
+        .left {
+            width: 50%;
+            /* border-right: 1px solid #faf2f2; */
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+            /* justify-content: center; */
+
+        }
+
+        .left h1 {
+            font-size: 55px;
+            padding: 10px 30px;
+        }
+
+        .right {
+            width: 44%;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+            /* justify-content: center; */
+            /* border: 1px solid #f8efef; */
+        }
+
+        .right h2 {
+            font-family: "League Ghotic", sans-serif;
+            font-size: 20px;
+        }
+
+        .right p {
+            font-size: 22px;
+            color: #ffffffcf;
+        }
+
+        .text6 {
+            margin-top: 10px;
+        }
+
+        .text6 i {
+            font-size: 25px;
+            left: 5px;
+        }
+
+        #section8 {
+            padding-top: 10px;
+            background: url(../014finalprojects/imgs/bg-8.jpg);
+            background-position: center;
+            background-size: cover;
+            box-shadow: 10px 10px 25px 25px rgba(0, 0, 0, 0.815);
+
+        }
+
+        .text-container8 {
+            padding-top: 150px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .text-container8 hr {
+
+            width: 100%;
+            margin-bottom: 5px;
+        }
+    </Style>
+</head>
+
+<body>
+    <section id="section1">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="../10image/logo-me.svg" alt="">
+                </div>
+
+                <ul>
+                    <li><a href="" class="home">HOME</a></li>
+                    <li><a href="">SHOP</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+                <div class="bag">
+                    <img src="bag" alt="bag">
+                </div>
+            </nav>
+            <section id="section0">
+                <h3>A Few Words</h3>
+                <h1>About Us</h1>
+                <div class="sec0">
+
+                </div>
+            </section>
+            <!----------------section 2 start------------------ -->
+            <section id="section2">
+                <div class="img">
+
+                </div>
+
+            </section>
+           
+<section id="3">
+    <div class="container3">
+        <div class="left1">
+            <h3>Our Story</h3>
+            <h1>Our story is one of <span>passion, perseverance, and commitment</span></h1>
+        </div>
+        <div class="right1">
+            <h4>Our journey began when a group of dedicated individuals, fueled by a shared love for exceptional deals and unmatched savings, came together to create a shopping experience like no other
+            </h4>
+            <p>Founded in 2008, BlackFridayShop set out with a simple mission – to make Black Friday accessible to everyone, delivering the thrill of unbeatable discounts to your fingertips. Over the years, we've dedicated ourselves to curating the finest selection of products, from electronics and fashion to home essentials and more, all with one goal in mind: providing you with the ultimate shopping experience.
+                What sets us apart is our relentless pursuit of quality and value. We've scoured the market for the finest products, establishing partnerships with trusted brands that share our commitment to excellence. This dedication ensures that every item you find at BlackFridayShop meets the highest standards of quality.
+                
+                boundless love for saving
+                We've scoured the market for the finest products, establishing</p>
+        </div>
+    </div>
+</section>
+ <!----------------section6 start------------------ -->
+            <section id="section6">
+                <div class="container6">
+                    <div class="left">
+                        <h3>Why Choose BlackFridayShop?</h3>
+                        <h1>THE JOY OF SHOPPING AT ITS BEST</h1>
+                    </div>
+                    <div class="right">
+                        <div class="box">
+                            <div class="text6">
+                                <i class="fa-solid fa-truck"></i>
+                                <br>
+                                <br>
+                                <h2>FREE SHIPPING</h2>
+                                <br>
+                                <p>Delight in seamless free shipping, enhancing your shopping experience.
+                                    Navigate our diverse collection, where cost savings meet product joy</p>
+                            </div>
+
+                        </div>
+                        <div class="box">
+                            <div class="text6">
+                                <i class="fa-solid fa-lock"></i>
+                                <br>
+                                <br>
+                                <h2>SECURE PAYMENTS</h2>
+                                <br>
+                                <p>Shop with confidence using our secure payment methods. Your transactions are
+                                    protected,
+                                    providing peace of mind for a worry-free shopping</p>
+                            </div>
+
+                        </div>
+                        <div class="box">
+                            <div class="text6">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <br>
+                                <br>
+                                <h2>ORDER TRACKING</h2>
+                                <br>
+                                <p>Track your order effortlessly with our streamlined system.
+                                    Stay informed and in control as your purchase makes its way to your doorstep</p>
+                            </div>
+
+                        </div>
+                        <div class="box">
+                            <div class="text6">
+                                <i class="fa-sharp fa-solid fa-rotate-left"></i>
+                                <br>
+                                <br>
+                                <h2>EASY RETURNS</h2>
+                                <br>
+                                <p>Celebrate worry-free shopping with our hassle-free returns –
+                                    because we're here to make your shopping experience as smooth as possible</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="section8">
+                <div class="container8">
+                    <div class="text-container8">
+                        <h3>Black Friday Sale</h3>
+                        <br>
+                        <h1>SAVE BIG: UP TO <span>60% OFF</span> ON ALL PRODUCTS</h1>
+                        <br>
+                        <br>
+                        <p>Don’t miss this exclusive opportunity to embark on a journey of unbeatable
+                            savings and cutting-edge <br> technology. It’s time to secure the best deals and upgrade
+                            your
+                            experience, so seize the moment and <br> start shopping now!</p>
+                        <button>SET REMINDER</button>
+                        <hr>
+
+                    </div>
+
+                </div>
+            </section>
+</body>
+
+</html>
