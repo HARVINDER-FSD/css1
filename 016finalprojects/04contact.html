@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .contact {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh ;
+             width: 80%; 
+             max-width: 1200px;  
+             padding: 20px; 
+             border-radius: 10px;
+             margin: 0 auto;
+; 
+        }
+
+        .contact-container {
+           
+        }
+
+        .info,
+        .form {
+            width: 48%;
+        }
+
+        .info {
+            padding-right: 40px;
+           
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .info p {
+            margin-bottom: 20px;
+        }
+
+        .info div {
+            /* margin-bottom: 20px; */
+        }
+
+        .info i {
+            font-size: 1.5em;
+            color: #E51937;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        .info strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form input,
+        .form textarea {
+            width: 100%;
+            padding: 20px;
+            margin-bottom: 10px;
+            border: none;
+            /* border-radius: 4px; */
+            background-color: #fff;
+            color: #222;
+        }
+
+        .form .name-fields {
+            display: flex;
+            gap: 5%;
+        }
+
+        .form .name-fields>div {
+            width: 49%;
+        }
+
+        .form button {
+            width: 100%;
+            padding: 15px;
+            background-color: #E51937;
+            color: #fff;
+            border: none;
+            /* border-radius: 4px; */
+            /* font-size: 1em; */
+            cursor: pointer;
+        }
+
+        .form button:hover {
+            background-color: #C41A2C;
+        }
+
+        #section1 {
+
+            background-color: black;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            color: #fff;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 40px;
+            padding-right: 40px;
+        }
+
+        .logo {
+            margin-right: 20px;
+        }
+
+        ul li {
+            display: inline-block;
+            padding: 0px 20px;
+
+        }
+
+        .home {
+            color: red;
+        }
+
+        li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        span,
+        .home,
+        h3 {
+
+            color: #ff4955;
+        }
+
+        h3 {
+            font-size: 30px;
+
+            padding: 10px 30px;
+            font-family: 'kaushan script', handwriting;
+
+        }
+
+        h1 {
+            font-size: 65px;
+            font-family: "League Ghotic", sans-serif;
+            font-weight: 700;
+        }
+
+        button {
+            background-color: #ff4955;
+            color: #fff;
+            font-family: "League Ghotic", sans-serif;
+            padding: 10px 20px;
+            font-size: 20px;
+            margin: 60px 30px;
+        }
+
+        .text-container {
+            margin-top: 200px;
+            text-align: center;
+            padding: 0px 30px;
+        }
+        /* section0 */
+        #section0 {
+            font-size: 60px;
+            text-align: center;
+            font-family: "League Ghotic", sans-serif;
+            src: url(https://websitedemos.net/fonts.gstatic.com/s/leaguegothic/v11/qFdR35CBi4tvBz81xy7WG7ep-BQAY7Krj7feObpH_9ahg9U.woff2);
+            margin: 70px;
+        }
+        #section8 {
+            padding-top: 10px;
+            background: url(../014finalprojects/imgs/bg-8.jpg);
+            background-position: center;
+            background-size: cover;
+            box-shadow: 10px 10px 25px 25px rgba(0, 0, 0, 0.815);
+
+        }
+
+        .text-container8 {
+            padding-top: 150px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .text-container8 hr {
+            
+            width: 100%;
+            margin-bottom: 5px;
+        }
+
+        /* ------------------section9 start-------------------- */
+    #section9{
+        position: sticky;
+        margin-top: 10px;
+    }
+        .sticky h3{
+            color: #fff;
+            font-size: 20px;
+            background-color: #ff4955;
+            
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section id="section1">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="../10image/logo-me.svg" alt="">
+                </div>
+
+                <ul>
+                    <li><a href="" class="home">HOME</a></li>
+                    <li><a href="">SHOP</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+                <div class="bag">
+                    <img src="bag" alt="bag">
+                </div>
+            </nav>
+            <section id="section0">
+                <h3>Let's Talk</h3>
+                <h1>Contact Us</h1>
+                <div class="sec0">
+
+                </div>
+            </section>
+
+
+            <div class="contact-container">
+                <div class="contact">
+                    <div class="info">
+                        <h1>GET IN TOUCH</h1>
+                        <p>Have questions or need assistance? Click the 'Contact Us' icon to get in touch with our
+                            friendly and responsive customer support team.</p>
+                        <div>
+                            <br><br>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <strong>ADDRESS</strong><br><br>
+                            2972 Westheimer Rd. Santa Ana, Illinois 85486
+                        </div>
+                        <hr>
+                        <div>
+                            <i class="fas fa-phone"></i>
+                            <strong>PHONE</strong><br><br>
+                            (405) 555-0128
+                        </div>
+                        <hr>
+                        <div>
+                            <i class="fas fa-envelope"></i>
+                            <strong>EMAIL</strong><br>
+                            hello@example.com
+                        </div>
+                    </div>
+                    <div class="form">
+                        <form action="#" method="post">
+                            <div class="name-fields">
+                                <div>
+                                    <label for="first-name">First Name</label>
+                                    <input type="text" id="first-name" name="first-name" placeholder="First" required>
+                                </div>
+                                <div>
+                                    <label for="last-name">Last Name</label>
+                                    <input type="text" id="last-name" name="last-name" placeholder="Last" required>
+                                </div>
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Email *" required>
+                            </div>
+                            <div>
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Message"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit">SEND</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <section id="section8">
+                <div class="container8">
+                    <div class="text-container8">
+                        <h3>Black Friday Sale</h3>
+                        <br>
+                        <h1>SAVE BIG: UP TO <span>60% OFF</span> ON ALL PRODUCTS</h1>
+                        <br>
+                        <br>
+                        <p>Don’t miss this exclusive opportunity to embark on a journey of unbeatable
+                            savings and cutting-edge <br> technology. It’s time to secure the best deals and upgrade
+                            your
+                            experience, so seize the moment and <br> start shopping now!</p>
+                        <button>SET REMINDER</button>
+                        <hr>
+
+                    </div>
+
+                </div>
+            </section>
+            <section id="section9">
+
+            </section>
+            <div class="sticky">
+                <h3>This is a demo store for testing purposes — no orders shall be fulfilled. Dismiss</h3>
+            </div>
+</body>
+
+</html>

@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #section0 {
+            font-size: 60px;
+            text-align: center;
+            font-family: "League Ghotic", sans-serif;
+            src: url(https://websitedemos.net/fonts.gstatic.com/s/leaguegothic/v11/qFdR35CBi4tvBz81xy7WG7ep-BQAY7Krj7feObpH_9ahg9U.woff2);
+            margin: 70px;
+        }
+
+        .sec0 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* margin-top: 90px; */
+        }
+
+        .sec0 h5 {
+            font-size: 20px;
+        }
+
+        .language-btn {
+            display: inline-flex;
+            align-items: center;
+            margin-bottom: 10px;
+            background: transparent;
+            border: 1px solid white;
+            padding: 7px 10px;
+        }
+
+        .language-btn img {
+            width: 10px;
+            margin-left: 10px;
+        }
+
+        #section1 {
+
+            background-image: url(../014finalprojects/imgs/bg1.jpg);
+            flex-wrap: wrap;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            color: #fff;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 40px;
+            padding-right: 40px;
+        }
+
+        .logo {
+            margin-right: 20px;
+        }
+
+        ul li {
+            display: inline-block;
+            padding: 0px 20px;
+
+        }
+
+        .home {
+            color: red;
+        }
+
+        li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        span,
+        .home {
+            color: #ff4955;
+        }
+
+        h1 {
+            font-size: 65px;
+            font-family: "League Ghotic", sans-serif;
+            src: url(../014finalprojects/League_Gothic/LeagueGothic-Regular-VariableFont_wdth.ttf);
+            font-weight: 700;
+        }
+
+
+
+        .text-container {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .product-container {
+            display: flex;
+            /* gap: 20px; */
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: #111;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+            position: relative;
+            color: #fff;
+        }
+
+        .discount-tag {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #444;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        h2 {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        .rating {
+            color: red;
+            margin-bottom: 10px;
+        }
+
+        .prices {
+            margin-bottom: 20px;
+        }
+
+        .original-price {
+            text-decoration: line-through;
+            color: #888;
+        }
+
+        .discounted-price {
+            font-size: 1.5em;
+            color: #ff5722;
+        }
+
+        #section2 {
+            /* border: 2px solid white; */
+            /* background-color: #0a0a0a; */
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .product-card {
+            background-color: #0a0a0aaf;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.801);
+            /* border-radius: 8px; */
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+            position: relative;
+        }
+
+        .discount-badge {
+            background-color: #333;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 50px;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 14px;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product-info {
+            padding: 20px;
+        }
+
+        .product-info h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .rating {
+            color: red;
+            margin: 10px 0;
+        }
+
+        .price {
+            font-size: 18px;
+        }
+
+        .old-price {
+            text-decoration: line-through;
+            color: #999;
+            margin-right: 10px;
+        }
+
+        .new-price {
+            color: #333;
+            font-weight: bold;
+        }
+
+        #section3 {
+            display: flex;
+
+            justify-content: space-evenly;
+
+        }
+        .pagination {
+            display: flex;
+            /* justify-content: center; */
+            margin: 20px 0;
+            padding-top: 20px;
+        }
+        #section5{
+             padding-top: 15px;
+             position: s;
+        }
+        .pagination button {
+            background-color: #e74c3c;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .sticky h3{
+            color: #fff;
+            font-size: 15px;
+            background-color: #ff4955;
+        
+            text-align: center;
+            padding: 20px 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <!----------------------------- section1 start--------------------- -->
+
+    <section id="section1">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="../10image/logo-me.svg" alt="">
+                </div>
+
+                <ul>
+                    <li><a href="" class="home">HOME</a></li>
+                    <li><a href="">SHOP</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+                <div class="bag">
+                    <img src="bag" alt="bag">
+                </div>
+            </nav>
+            <section id="section0">
+                <h2>SHOP</h2>
+                <div class="sec0">
+                    <div>
+                        <h5>Showing 1–8 of 16 results</h5>
+                    </div>
+                    <div>
+                        <button class="language-btn">Default sorting
+                            <img src="../10image/down-icon.png" alt=""></button>
+
+                    </div>
+
+                </div>
+
+
+            </section>
+
+            <!------------------ section2 start------------------------ -->
+
+            <section id="section2">
+                <div class="product-card">
+                    <div class="discount-badge">-37%</div>
+                    <img src="../014finalprojects/imgs/15-product-400x463.jpg" alt="Audiosculpt Elite">
+                    <div class="product-info">
+                        <h2>AUDIOSCULPT ELITE</h2>
+                        <div class="rating">
+                            <span>⭐</span>
+                            <span>⭐</span>
+                            <span>⭐</span>
+                            <span>⭐</span>
+                            <span>⭐</span>
+                        </div>
+                        <div class="price">
+                            <span class="old-price">$375.00</span>
+                            <span class="new-price">$235.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="discount-badge">-37%</div>
+                    <img src="../014finalprojects/imgs/16-product-400x463 (1).jpg" alt="Audiosculpt Elite">
+                    <div class="product-info">
+                        <h2>AUDIOSCULPT ELITE</h2>
+                        <div class="rating">
+                            <span>⭐</span>
+                            <span>⭐</span>
+                            <span>⭐</span>
+                            <span>⭐</span>
+                            <span>⭐</span>
+                        </div>
+                        <div class="price">
+                            <span class="old-price">$375.00</span>
+                            <span class="new-price">$235.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="discount-badge">-37%</div>
+                    <img src="../014finalprojects/imgs/17-product-400x463.jpg" alt="Audiosculpt Elite">
+                    <div class="product-info">
+                        <h2>AUDIOSCULPT ELITE</h2>
+                        <div class="rating">
+                            <span>⭐</span>
+                            <span>⭐</span>
+                            <span>⭐</span>
+                            <span>⭐</span>
+                            <span>⭐</span>
+                        </div>
+                        <div class="price">
+                            <span class="old-price">$375.00</span>
+                            <span class="new-price">$235.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="discount-badge">-37%</div>
+                    <img src="../014finalprojects/imgs/18-product-400x463 (1).jpg" alt="Audiosculpt Elite">
+                    <div class="product-info">
+                        <h2>AUDIOSCULPT ELITE</h2>
+                        <div class="rating">
+                            <span>⭐</span>
+                            <span>⭐</span>
+                            <span>⭐</span>
+                            <span>⭐</span>
+                            <span>⭐</span>
+                        </div>
+                        <div class="price">
+                            <span class="old-price">$375.00</span>
+                            <span class="new-price">$235.00</span>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <br>
+            <br>
+            <!------------------ section3 start------------------------>
+
+            <section id="section3">
+                <div class="product-card">
+                    <div class="discount-badge">-37%</div>
+                    <img src="../014finalprojects/imgs/19-product-400x463.jpg" alt="Audiosculpt Elite">
+                    <div class="product-info">
+                        <h2>AUDIOSCULPT ELITE</h2>
+                        <div class="rating">
+                            <span>⭐</span>
+                            <span>⭐</span>
+                            <span>⭐</span>
+                            <span>⭐</span>
+                            <span>⭐</span>
+                        </div>
+                        <div class="price">
+                            <span class="old-price">$375.00</span>
+                            <span class="new-price">$235.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="discount-badge">-37%</div>
+                    <img src="../014finalprojects/imgs/20-product-400x463.jpg" alt="Audiosculpt Elite">
+                    <div class="product-info">
+                        <h2>AUDIOSCULPT ELITE</h2>
+                        <div class="rating">
+                            <span>⭐</span>
+                            <span>⭐</span>
+                            <span>⭐</span>
+                            <span>⭐</span>
+                            <span>⭐</span>
+                        </div>
+                        <div class="price">
+                            <span class="old-price">$375.00</span>
+                            <span class="new-price">$235.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="discount-badge">-37%</div>
+                    <img src="../014finalprojects/imgs/21-product-400x463.jpg" alt="Audiosculpt Elite">
+                    <div class="product-info">
+                        <h2>AUDIOSCULPT ELITE</h2>
+                        <div class="rating">
+                            <span>⭐</span>
+                            <span>⭐</span>
+                            <span>⭐</span>
+                            <span>⭐</span>
+                            <span>⭐</span>
+                        </div>
+                        <div class="price">
+                            <span class="old-price">$375.00</span>
+                            <span class="new-price">$235.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="discount-badge">-37%</div>
+                    <img src="../014finalprojects/imgs/22-product-400x463 (1).jpg" alt="Audiosculpt Elite">
+                    <div class="product-info">
+                        <h2>AUDIOSCULPT ELITE</h2>
+                        <div class="rating">
+                            <span>⭐</span>
+                            <span>⭐</span>
+                            <span>⭐</span>
+                            <span>⭐</span>
+                            <span>⭐</span>
+                        </div>
+                        <div class="price">
+                            <span class="old-price">$375.00</span>
+                            <span class="new-price">$235.00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+            <section id="4">
+                <div class="pagination">
+                    <button>1</button>
+                    <button>2</button>
+                    <button>→</button>
+                </div>
+                <hr>
+            </section>
+            <section id="section5">
+                <div class="sticky">
+                <h3>This is a demo store for testing purposes — no orders shall be fulfilled. Dismiss</h3>
+            </div>
+            </section>
+            
+
+</body>
+
+</html>
