@@ -355,13 +355,254 @@
         }
 
         /* ------------------section9 start-------------------- */
-    
-        .sticky h3{
+        #section9 h3 {
+            /* position: sticky; */
+        }
+
+        .sticky h3 {
             color: #fff;
             font-size: 20px;
             background-color: #ff4955;
+            text-align: center;
             position: sticky;
 
+        }
+
+        /* Phones (Portrait) */
+
+        @media (max-width: 768px) {
+            #section1 {
+
+                background: url(../016finalprojects/imgs/bg1.jpg);
+               width: 100%;
+            }
+
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .logo img {
+                max-width: 120px;
+            }
+
+            h1 {
+                font-size: 50px;
+            }
+
+            .time-box {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .box1,
+            .box2,
+            .box3,
+            .box4 {
+                width: 200px;
+                height: 180px;
+                font-size: 80px;
+                padding: 30px 20px;
+            }
+
+            #section2 {
+                background: url(../016finalprojects/imgs/bg-006.jpg);
+                width: 100%;
+                margin: 30px 20px; 
+            }
+
+            .text-container2 {
+            
+                flex-direction: column;
+                width: 100%;
+                text-align: center;
+
+
+            }
+
+            .text1 {
+                color: #fff;
+                margin-top: 150px;
+
+            }
+
+            .text1 h1 {
+                font-family: "League Ghotic", sans-serif
+            }
+
+            .text1 p {
+                font-size: 16px;
+                margin-top: 10px;
+                font-family: "manrope", sans-serif;
+            }
+
+            .text4 {
+                color: #fff;
+                text-align: center;
+                font-size: 40px;
+                padding: 10px 40px;
+            }
+
+            .text4 h2 {
+                font-family: 'League Gothic', sans-serif;
+            }
+
+
+            .products {
+                flex-direction: column;
+                gap: 20px;
+                align-items: center;
+
+            }
+
+            .text-container3 {
+                flex-direction: column;
+                align-items: center;
+                margin: 25px 25px 0px;
+                padding: 20px;
+
+            }
+
+            .text-container3 img {
+                padding-right: 30px;
+
+            }
+
+            .text2 {
+                color: #fff;
+                padding: 20px 30px;
+                margin-top: 150px;
+            }
+
+            .text2 h1 {
+                font-family: "League Ghotic", sans-serif
+            }
+
+            .text2 p {
+                font-size: 16px;
+                margin-top: 10px;
+                font-family: "manrope", sans-serif;
+            }
+
+            .container6 {
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                color: white;
+
+            }
+
+            .left {
+                width: 50%;
+                flex-direction: column;
+
+            }
+
+            .left h1 {
+                font-size: 25px;
+                padding: 5px 15px;
+            }
+
+            .right {
+                width: 44%;
+                display: grid;
+                flex-direction: column;
+                grid-template-rows: 1fr 1fr;
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+            }
+
+            .box {
+
+                flex-direction: column;
+                /* align-items: center; */
+                /* justify-content: center; */
+                /* border: 1px solid #f8efef; */
+            }
+
+            .right h2 {
+                font-family: "League Ghotic", sans-serif;
+                font-size: 20px;
+            }
+
+            .right p {
+                font-size: 17px;
+                color: #ffffffcf;
+            }
+
+            .text6 {
+                /* margin-top: 10px; */
+            }
+
+            .text6 i {
+                font-size: 12.5px;
+                left: 5px;
+            }
+
+            @media (max-width: 480px) {
+                nav {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+
+            h1 {
+                font-size: 10px;
+            }
+
+            .text-container2 {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                text-align: center;
+
+            }
+
+
+            .box1,
+            .box2,
+            .box3,
+            .box4 {
+                width: 90px;
+                height: 75px;
+                font-size: 30px;
+                padding: 10px 7px;
+            }
+
+            .left h1 {
+                font-size: 17px;
+            }
+
+            .container7 {
+                padding: 10px;
+                margin: 0 10px;
+            }
+
+            .headings h1 {
+                font-size: 17px;
+            }
+
+            .content {
+                padding-top: 25px;
+            }
+
+            .container {
+                padding: 0 10px;
+            }
+
+            .right p {
+                font-size: 9px;
+            }
+
+            button {
+                font-size: 18px;
+                padding: 8px 16px;
+            }
         }
     </style>
 </head>
@@ -381,7 +622,7 @@
                     <li><a href="../016finalprojects/04CONTACT.html">CONTACT</a></li>
                 </ul>
                 <div class="bag">
-                    <img src="bag" alt="bag">
+                    <i class="fa-solid fa-bag-shopping" style="color: #ff4955"></i>
                 </div>
             </nav>
             <div class="text-container">
@@ -424,7 +665,7 @@
                     <button>Shop Now</button>
                 </div>
                 <div>
-                    <img src="../014finalprojects/imgs/headphone-01.png" alt="">
+                    <img src="../016finalprojects/imgs/headphone-01.png" alt="">
                 </div>
 
             </div>
@@ -473,23 +714,7 @@
         </div>
 
     </section>
-    <!-- --------------------ssection5----------------- -->
-    <!-- <section id="section5">
-        <div class="container4">
-            <div class="text-container4">
-                <div class="text4">
 
-                    <h3>Limited-Time Offer</h3>
-                       <h1> SAVE BIG: UP TO 60% OFF ON ALL HEADPHONES</h1>
-                        <button>Shop Now</button>
-                </div>
-                <div>
-
-                </div>
-
-            </div>
-        </div>
-    </section> -->
     <!-- --------------------ssection6----------------- -->
     <section id="section6">
         <div class="container6">
@@ -602,14 +827,17 @@
                     experience, so seize the moment and <br> start shopping now!</p>
                 <button>SET REMINDER</button>
                 <hr>
-               
+
             </div>
 
         </div>
     </section>
+    <section id="section9">
+
+    </section>
     <div class="sticky">
-                    <h3>This is a demo store for testing purposes — no orders shall be fulfilled. Dismiss</h3>
-                </div>
+        <h3>This is a demo store for testing purposes — no orders shall be fulfilled. Dismiss</h3>
+    </div>
 </body>
 
 </html>

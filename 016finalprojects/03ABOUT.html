@@ -137,34 +137,39 @@
 
 
         }
-        .--img{
 
-        }
-        #section3{
-            
-        }
+        .--img {}
+
+        #section3 {}
+
         .container3 {
             display: flex;
             border: 1px solid #000;
             padding: 10px;
-            height: 500px;
+
         }
-        .left, .right {
+
+        .left,
+        .right {
             flex: 1;
             padding: 10px;
         }
+
         .left1 {
             background-color: black;
-           
+
         }
-        .left1 h1{
+
+        .left1 h1 {
             font-size: 50px;
             padding-left: 30px;
         }
-        .left1 h3{
+
+        .left1 h3 {
             padding-left: 30px;
-        
+
         }
+
         .right1 {
             width: 50%;
             background-color: black;
@@ -172,28 +177,20 @@
         }
 
         /* section 3 over */
-        
-        #SECTION6 {
-            background-color: black;
-        }
+
+       
 
         .container6 {
             display: flex;
             width: 100%;
-            height: 100vh;
-            /* border: 1px solid #fdf3f3; */
             color: white;
-            margin-top: 150px;
+            background-color: black;
         }
 
         .left {
             width: 50%;
-            /* border-right: 1px solid #faf2f2; */
             display: flex;
-            flex-direction: column;
-            /* align-items: center; */
-            /* justify-content: center; */
-
+            flex-direction: column;   
         }
 
         .left h1 {
@@ -256,6 +253,86 @@
             width: 100%;
             margin-bottom: 5px;
         }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            #section0 {
+                font-size: 30px;
+                text-align: center;
+                font-family: "League Ghotic", sans-serif;
+                src: url(https://websitedemos.net/fonts.gstatic.com/s/leaguegothic/v11/qFdR35CBi4tvBz81xy7WG7ep-BQAY7Krj7feObpH_9ahg9U.woff2);
+                margin: 35px;
+            }
+
+            #section1 {
+                width: 100%;
+                text-align: center;
+            }
+
+            .sec0 {
+
+                flex-direction: column-reverse;
+                justify-content: space-between;
+                align-items: center;
+                /* margin-top: 90px; */
+            }
+
+            .sec0 h5 {
+                font-size: 10px;
+            }
+
+            #section2 {
+                margin-top: 25px;
+
+                width: 90%;
+                height: 55vh;
+                background-image: url(../016finalprojects/imgs/about-02.jpg);
+                background-position: center center;
+                background-size: cover;
+                background-attachment: fixed;
+                margin-left: 30px;
+                box-shadow: 0px 0px 80px 80px rgba(0, 0, 0, 0.815);
+
+
+            }
+
+            .container3 {
+                display: flex;
+                padding: 10px;
+
+            }
+
+            .left,
+            .right {
+                flex: 1;
+                padding: 10px;
+            }
+
+            .left1 {
+                background-color: black;
+
+            }
+
+            .left1 h1 {
+                font-size: 25px;
+                padding-left: 15px;
+            }
+
+            .left1 h3 {
+                padding-left: 15px;
+
+            }
+
+            .right1 {
+                width: 50%;
+                background-color: black;
+                text-align: center;
+            }
+        }
     </Style>
 </head>
 
@@ -268,13 +345,13 @@
                 </div>
 
                 <ul>
-                    <li><a href="" class="home">HOME</a></li>
-                    <li><a href="">SHOP</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><a href="../016finalprojects/blackfriday.html" class="home">HOME</a></li>
+                    <li><a href="../016finalprojects/02SHOP.html">SHOP</a></li>
+                    <li><a href="../016finalprojects/03ABOUT.html">ABOUT</a></li>
+                    <li><a href="../016finalprojects/04CONTACT.html">CONTACT</a></li>
                 </ul>
                 <div class="bag">
-                    <img src="bag" alt="bag">
+                    <i class="fa-solid fa-bag-shopping" style="color: #ff4955"></i>
                 </div>
             </nav>
             <section id="section0">
@@ -291,25 +368,34 @@
                 </div>
 
             </section>
-           
-<section id="3">
-    <div class="container3">
-        <div class="left1">
-            <h3>Our Story</h3>
-            <h1>Our story is one of <span>passion, perseverance, and commitment</span></h1>
-        </div>
-        <div class="right1">
-            <h4>Our journey began when a group of dedicated individuals, fueled by a shared love for exceptional deals and unmatched savings, came together to create a shopping experience like no other
-            </h4>
-            <p>Founded in 2008, BlackFridayShop set out with a simple mission – to make Black Friday accessible to everyone, delivering the thrill of unbeatable discounts to your fingertips. Over the years, we've dedicated ourselves to curating the finest selection of products, from electronics and fashion to home essentials and more, all with one goal in mind: providing you with the ultimate shopping experience.
-                What sets us apart is our relentless pursuit of quality and value. We've scoured the market for the finest products, establishing partnerships with trusted brands that share our commitment to excellence. This dedication ensures that every item you find at BlackFridayShop meets the highest standards of quality.
-                
-                boundless love for saving
-                We've scoured the market for the finest products, establishing</p>
-        </div>
-    </div>
-</section>
- <!----------------section6 start------------------ -->
+
+            <section id="3">
+                <div class="container3">
+                    <div class="left1">
+                        <h3>Our Story</h3>
+                        <h1>Our story is one of <span>passion, perseverance, and commitment</span></h1>
+                    </div>
+                    <div class="right1">
+                        <h4>Our journey began when a group of dedicated individuals, fueled by a shared love for
+                            exceptional deals and unmatched savings, came together to create a shopping experience like
+                            no other
+                        </h4>
+                        <p>Founded in 2008, BlackFridayShop set out with a simple mission – to make Black Friday
+                            accessible to everyone, delivering the thrill of unbeatable discounts to your fingertips.
+                            Over the years, we've dedicated ourselves to curating the finest selection of products, from
+                            electronics and fashion to home essentials and more, all with one goal in mind: providing
+                            you with the ultimate shopping experience.
+                            What sets us apart is our relentless pursuit of quality and value. We've scoured the market
+                            for the finest products, establishing partnerships with trusted brands that share our
+                            commitment to excellence. This dedication ensures that every item you find at
+                            BlackFridayShop meets the highest standards of quality.
+
+                            boundless love for saving
+                            We've scoured the market for the finest products, establishing</p>
+                    </div>
+                </div>
+            </section>
+            <!----------------section6 start------------------ -->
             <section id="section6">
                 <div class="container6">
                     <div class="left">
@@ -369,7 +455,7 @@
                     </div>
                 </div>
             </section>
-            
+
             <section id="section8">
                 <div class="container8">
                     <div class="text-container8">
