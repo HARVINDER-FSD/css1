@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="task.js"></script>
+  </head>
+  <body>
+    <section class="slider-container">
+      <div class="slider-images">
+        <div class="slider-img">
+          <img src="./Images/image1.jpg" alt="1" />
+          <h1>wolf</h1>
+          <div class="details">
+            <h2>white wolf</h2>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="./Images/image2.jpg" alt="2" />
+          <h1>Vulpix</h1>
+          <div class="details">
+            <h2>Vulpix</h2>
+    
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="./Images/image3.jpg" alt="3" />
+          <h1>sparrow</h1>
+          <div class="details">
+            <h2>sparro</h2>
+    
+          </div>
+        </div>
+        <div class="slider-img active">
+          <img src="./Images/image4.jpg" alt="4" />
+          <h1>buttefly </h1>
+          <div class="details">
+            <h2>buttefly </h2>
+
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="./Images/image5.jpg" alt="5" />
+          <h1>dolphin</h1>
+          <div class="details">
+            <h2>dolphin</h2>
+
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="./Images/image6.jpg" alt="6" />
+          <h1>dragon</h1>
+          <div class="details">
+            <h2>cute dragon</h2>
+            
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="./Images/image0_0.jpg" alt="7" />
+          <h1>cat</h1>
+          <div class="details">
+            <h2>cute kitten</h2>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/jQuery.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".slider-img").on("click", function () {
+          $(".slider-img").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
